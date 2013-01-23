@@ -91,11 +91,6 @@ def get_file(subdir, filename):
         ))
 
 
-def _dummy_method():
-    somevar = "foo"
-    return [somevar]
-
-
 @app.route('/page/data/<gif>')
 @app.route('/tags/data/<gif>')
 @app.route('/data/<gif>')
